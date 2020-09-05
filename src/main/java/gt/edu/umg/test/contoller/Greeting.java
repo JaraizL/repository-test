@@ -16,5 +16,11 @@ public class Greeting {
 		//esto solo debe aparecer en testing
 		return "Hello world " + date.toString();
 	}
+	@GetMapping("/hello")
+	public String getGreeting7690179477() {
+		Date date = new Date();
+		//esto solo debe aparecer en testing
+		return "Hello world " + date.toString();
+	}
 
 }
